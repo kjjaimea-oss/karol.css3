@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller 2 – CSS3</title>
+</head>
+<body>
+
+<header>
+  <h1>Taller 2 – CSS3</h1>
+  <p>Ing. Ángela María Guerrero Bayona, MSc. · UFPS 2026</p>
+</header>
+
+<!-- EJERCICIO 1 -->
+<section>
+  <h2>Ejercicio 1: Menú horizontal con Flexbox</h2>
+  <p class="desc">Se usa <strong>display: flex</strong> para distribuir los enlaces horizontalmente.</p>
+  <nav class="menu">
+    <a href="#" class="active">Inicio</a>
+    <a href="#">Galería</a>
+    <a href="#">Botones</a>
+    <a href="#">Responsive</a>
+    <a href="#">Contacto</a>
+  </nav>
+</section>
+
+<!-- EJERCICIO 2 -->
+<section>
+  <h2>Ejercicio 2: Galería con CSS Grid</h2>
+  <p class="desc">Se usa <strong>display: grid</strong> con 3 columnas iguales y un gap de 10px.</p>
+  <div class="galeria">
+    <div class="galeria-item">Foto 1</div>
+    <div class="galeria-item">Foto 2</div>
+    <div class="galeria-item">Foto 3</div>
+    <div class="galeria-item">Foto 4</div>
+    <div class="galeria-item">Foto 5</div>
+    <div class="galeria-item">Foto 6</div>
+  </div>
+</section>
+
+<!-- EJERCICIO 3 -->
+<section>
+  <h2>Ejercicio 3: Hover en botones</h2>
+  <p class="desc">Se usa la pseudoclase <strong>:hover</strong> y la propiedad <strong>transition</strong> para animar el cambio de color.</p>
+  <div class="botones">
+    <button class="btn btn-rojo">Botón Rojo</button>
+    <button class="btn btn-gris">Botón Gris</button>
+    <button class="btn btn-outline">Botón Outline</button>
+  </div>
+</section>
+
+<!-- EJERCICIO 4 -->
+<section>
+  <h2>Ejercicio 4: Diseño Responsive</h2>
+  <p class="desc">Con <strong>@media (max-width: 600px)</strong> el layout pasa de 2 columnas a 1 columna en móviles.</p>
+  <div class="layout">
+    <div class="r-header">Mi Sitio Web</div>
+    <aside class="r-sidebar">
+      <ul>
+        <li>Inicio</li>
+        <li>Proyectos</li>
+        <li>Blog</li>
+        <li>Contacto</li>
+      </ul>
+    </aside>
+    <main class="r-content">
+      Este es el contenido principal de la página. En pantallas grandes aparece junto al sidebar. En pantallas pequeñas (menos de 600px) se apila debajo.
+    </main>
+    <div class="r-footer">© 2026 Mi Sitio Web</div>
+  </div>
+</section>
+
+<footer>
+  Taller 2 · CSS3 · Universidad Francisco de Paula Santander
+</footer>
+
+</body>
+</html>
